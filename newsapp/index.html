@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add News</h2>
+        <input type="text" id="newsTitle" placeholder="Enter news title" required>
+        <textarea id="newsContent" placeholder="Enter news content" required></textarea>
+        <input type="text" id="newsImage" placeholder="Enter image URL (optional)">
+        <button onclick="addNews()">Add News</button>
+        
+        <h2>Latest News</h2>
+        <div class="news-container" id="newsContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
